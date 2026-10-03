@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ice Age hall</title>
+  <meta name="description" content="Ice Age hall">
+  <link rel="stylesheet" href="/files/site.css">
+  <style>.qzstyle { color: #3a3a3a }</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/"><img src="/files/logo.png" alt="Logo"></a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/halls/">Halls</a>
+    <a href="/events/">Events</a>
+    <a href="/shop/">Shop</a>
+    <a href="/about/">About us</a>
+  </nav>
+</header>
+<main>
+  <h1>Ice Age hall</h1>
+  <p>The star of this hall is a mammoth skeleton found near Kazan in 1978. The skeleton is 3.2 m tall and about 45,000 years old.</p>
+  <figure>
+    <img src="/files/mammoth-skeleton.png" alt="Mammoth skeleton">
+    <figcaption>The skeleton after cleaning, photographed in 2025.</figcaption>
+  </figure>
+  <p>Dr. Irina Petrova led the <em>excavation</em>. She still gives a talk here on the first Saturday of each month.</p>
+  <img src="/files/placeholder.gif" data-src="/files/woolly-rhino.png" alt="Woolly rhino">
+  <img src="/files/mammoth-skeleton.png" alt="Skeleton detail">
+  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="">
+  <img src="  ../files/cave-lion.png " alt="Cave lion">
+  <img data-src="   " src="/files/tusk.jpg" alt="Tusk">
+  <p>Related objects: <a href="/exhibits/1">the mammoth tusk</a> and <a href="/exhibits/2">a cave lion skull</a>.</p>
+  <noscript>
+    <style>.qznoscript { display: none }</style>
+    <img src="/files/pixel.gif?page=ice-age" alt="">
+    <p>qznoscript Turn on JavaScript to rotate the 3D model.</p>
+  </noscript>
+  <template>
+    <p>qztemplate <a href="/tours/private">Private tour</a></p>
+  </template>
+  <script>var qzscript = 'model viewer'</script>
+  <!-- qzcomment: the old banner was removed in May -->
+  <p hidden>qzhidden Staff note: move the rhino closer to the window.</p>
+</main>
+<footer>
+  <p>© 2026 Innopolis Museum of Natural History. Photos by the museum team.</p>
+  <p><a href="/about/#contact">Contact</a> · <a href="mailto:info@imnh.example">info@imnh.example</a> · <a href="/press/kit.pdf">Press kit (PDF)</a></p>
+</footer>
+<script>window.qzscript = 'page analytics'</script>
+</body>
+</html>

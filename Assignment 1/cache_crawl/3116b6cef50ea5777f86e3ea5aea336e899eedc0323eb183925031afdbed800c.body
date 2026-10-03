@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Events</title>
+  <meta name="description" content="Events">
+  <link rel="stylesheet" href="/files/site.css">
+  <style>.qzstyle { color: #3a3a3a }</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/"><img src="/files/logo.png" alt="Logo"></a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/halls/">Halls</a>
+    <a href="/events/">Events</a>
+    <a href="/shop/">Shop</a>
+    <a href="/about/">About us</a>
+  </nav>
+</header>
+<main>
+  <h1>Events</h1>
+  <p>Lectures, workshops and night tours. Tickets for events are sold at the front desk.</p>
+  <ul>
+    <li><a href="/calendar/2026-10">Calendar</a></li>
+    <li><a href="/events/mammoth-talk">Mammoth talk with Dr. Petrova</a></li>
+    <li><a href="/events/2019-gala">Museum gala 2019</a></li>
+    <li><a href="/events/live-feed">Live video from the sturgeon tank</a></li>
+    <li><a href="/loop/a">Book a night tour</a></li>
+  </ul>
+</main>
+<footer>
+  <p>© 2026 Innopolis Museum of Natural History. Photos by the museum team.</p>
+  <p><a href="/about/#contact">Contact</a> · <a href="mailto:info@imnh.example">info@imnh.example</a> · <a href="/press/kit.pdf">Press kit (PDF)</a></p>
+</footer>
+<script>window.qzscript = 'page analytics'</script>
+</body>
+</html>

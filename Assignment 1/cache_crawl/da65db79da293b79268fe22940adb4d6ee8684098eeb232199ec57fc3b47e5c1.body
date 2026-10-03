@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Volga Rivers hall</title>
+  <meta name="description" content="Volga Rivers hall">
+  <link rel="stylesheet" href="/files/site.css">
+  <link rel="canonical" href="/halls/rivers?utm_source=canonical">
+  <base href="/collections/rivers/">
+  <style>.qzstyle { color: #3a3a3a }</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/"><img src="/files/logo.png" alt="Logo"></a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/halls/">Halls</a>
+    <a href="/events/">Events</a>
+    <a href="/shop/">Shop</a>
+    <a href="/about/">About us</a>
+  </nav>
+</header>
+<main>
+  <h1>Volga Rivers hall</h1>
+  <p>Our rivers hall follows the Volga from its source to the Caspian Sea. The sturgeon tank holds 12 fish, and the oldest one is 31 years old.</p>
+  <p>Meet the <a href="sturgeon">Russian sturgeon</a>, or look at <a href="delta-map" rel="nofollow">a map of the delta</a>.</p>
+  <img src="img/sturgeon.png" alt="Sturgeon">
+  <p>The hall also shows <a href="../../exhibits/3">a paddle steamer model</a>.</p>
+</main>
+<footer>
+  <p>© 2026 Innopolis Museum of Natural History. Photos by the museum team.</p>
+  <p><a href="/about/#contact">Contact</a> · <a href="mailto:info@imnh.example">info@imnh.example</a> · <a href="/press/kit.pdf">Press kit (PDF)</a></p>
+</footer>
+<script>window.qzscript = 'page analytics'</script>
+</body>
+</html>

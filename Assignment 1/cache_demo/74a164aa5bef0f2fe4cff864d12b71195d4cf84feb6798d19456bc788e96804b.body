@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>About the museum</title>
+  <meta name="description" content="About the museum">
+  <link rel="stylesheet" href="/files/site.css">
+  <style>.qzstyle { color: #3a3a3a }</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/"><img src="/files/logo.png" alt="Logo"></a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/halls/">Halls</a>
+    <a href="/events/">Events</a>
+    <a href="/shop/">Shop</a>
+    <a href="/about/">About us</a>
+  </nav>
+</header>
+<main>
+  <h1>About the museum</h1>
+  <p>The Innopolis Museum of Natural History opened its doors on 12 April 2014. It started with a gift of 800 fossils from a private collector.</p>
+  <p>Read <a href="history">our history</a> or go to the <a href="/staff/">staff area</a>. Unfinished articles wait in the <a href="/archive/drafts/">drafts archive</a>.</p>
+  <p>A student ticket costs 150 rubles. Entry is free for children under 7.</p>
+  <blockquote>
+    <p>“A museum is a conversation with the past.” (Prof. A. N. Volkov, founder)</p>
+  </blockquote>
+  <p><a href="/print/about">Printable version</a> · <a href="/api/export">Visitor numbers (JSON)</a> · <a href="/press/kit.pdf">Press kit</a> · <a href="mailto:info@imnh.example">Write to us</a> · <a href="#contact">Contact</a></p>
+</main>
+<footer>
+  <p>© 2026 Innopolis Museum of Natural History. Photos by the museum team.</p>
+  <p><a href="/about/#contact">Contact</a> · <a href="mailto:info@imnh.example">info@imnh.example</a> · <a href="/press/kit.pdf">Press kit (PDF)</a></p>
+</footer>
+<script>window.qzscript = 'page analytics'</script>
+</body>
+</html>

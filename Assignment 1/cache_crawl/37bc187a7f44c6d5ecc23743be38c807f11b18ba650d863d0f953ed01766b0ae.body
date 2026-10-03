@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Halls &amp; galleries</title>
+  <meta name="description" content="Our halls">
+  <link rel="stylesheet" href="/files/site.css">
+  <style>.qzstyle { color: #3a3a3a }</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/"><img src="/files/logo.png" alt="Logo"></a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/halls/">Halls</a>
+    <a href="/events/">Events</a>
+    <a href="/shop/">Shop</a>
+    <a href="/about/">About us</a>
+  </nav>
+</header>
+<main>
+  <h1>Our halls</h1>
+  <p>The museum has three permanent halls. Each one takes about forty minutes to see.</p>
+  <ul>
+    <li><a href="ice-age">Ice Age</a>: mammoths, woolly rhinos and cave lions.</li>
+    <li><a href="rivers?utm_campaign=autumn">Volga Rivers</a>: fish, birds and the river delta.</li>
+    <li><a href="minerals">Minerals</a>: crystals from the Ural Mountains.</li>
+  </ul>
+  <img src="img/halls-map.png" alt="Map of the halls">
+  <p>Bookmarked our old page? The <a href="/old/halls/rivers">old rivers page</a> still works. You can also jump to the <a href="rivers#map">rivers hall map</a>.</p>
+  <div hidden>
+    <p>qzhidden Coming soon: <a href="/halls/vault">the vault</a>.</p>
+  </div>
+</main>
+<footer>
+  <p>© 2026 Innopolis Museum of Natural History. Photos by the museum team.</p>
+  <p><a href="/about/#contact">Contact</a> · <a href="mailto:info@imnh.example">info@imnh.example</a> · <a href="/press/kit.pdf">Press kit (PDF)</a></p>
+</footer>
+<script>window.qzscript = 'page analytics'</script>
+</body>
+</html>

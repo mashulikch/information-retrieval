@@ -1,0 +1,9 @@
+# robots.txt for the Innopolis Museum of Natural History
+User-agent: *
+Disallow: /staff/
+Disallow: /search
+
+User-agent: IRHomeworkBot
+Disallow: /staff/
+Disallow: /archive/drafts/
+Disallow: /shop/cart

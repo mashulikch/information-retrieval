@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>
+    Innopolis Museum of
+    Natural History
+  </title>
+  <meta name="description" content="Innopolis Museum of Natural History">
+  <link rel="stylesheet" href="/files/site.css">
+  <style>.qzstyle { color: #3a3a3a }</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/"><img src="/files/logo.png" alt="Logo"></a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/halls/">Halls</a>
+    <a href="/events/">Events</a>
+    <a href="/shop/">Shop</a>
+    <a href="/about/">About us</a>
+  </nav>
+</header>
+<main>
+  <h1>Innopolis Museum of Natural History</h1>
+  <p>Welcome to a small museum with a big collection. We look after more than 12,400 objects, from river shells to a complete mammoth skeleton.</p>
+  <img src="/files/hero-mammoth.jpg" alt="The mammoth skeleton at night">
+  <p><a href="/halls/rivers">Featured this month: the Volga Rivers hall</a>. It reopened after a long renovation and now has a sturgeon tank.</p>
+  <p><a href="/about/?utm_source=home&amp;utm_medium=banner">About the museum</a> · <a href="#visit">Plan a visit</a> · <a href="/search?q=mammoth">Search the collection</a></p>
+  <p><a href="javascript:void(0)">Open the map</a> or <a href="tel:+78435550199">call us</a> if you need directions.</p>
+  <p>School computers can use our <a href="http://LocalHost:8765/about/">mirror site</a>. If you are in a hurry, <a href="HTTP://127.0.0.1:8765/halls/ice-age#skeleton">see the skeleton</a> first.</p>
+  <p>We work with the <a href="http://127.0.0.1:8766/">Kazan Science Archive</a> on field research. Check the <a href="  /events/  ">  events page  </a> for lectures.</p>
+  <p id="visit">Opening hours: Tuesday to Sunday, 10:00 to 18:00. The museum is closed on Mondays.</p>
+</main>
+<footer>
+  <p>© 2026 Innopolis Museum of Natural History. Photos by the museum team.</p>
+  <p><a href="/about/#contact">Contact</a> · <a href="mailto:info@imnh.example">info@imnh.example</a> · <a href="/press/kit.pdf">Press kit (PDF)</a></p>
+</footer>
+<script>window.qzscript = 'page analytics'</script>
+</body>
+</html>

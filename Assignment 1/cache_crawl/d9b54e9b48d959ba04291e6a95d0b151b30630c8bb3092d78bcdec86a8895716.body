@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Museum shop</title>
+  <meta name="description" content="Museum shop">
+  <link rel="stylesheet" href="/files/site.css">
+  <style>.qzstyle { color: #3a3a3a }</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/"><img src="/files/logo.png" alt="Logo"></a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/halls/">Halls</a>
+    <a href="/events/">Events</a>
+    <a href="/shop/">Shop</a>
+    <a href="/about/">About us</a>
+  </nav>
+</header>
+<main>
+  <h1>Museum shop</h1>
+  <p>Books, toys and posters from our collection. Every purchase supports the museum.</p>
+  <div id="catalog" class="product-grid">
+    <p>Loading products...</p>
+  </div>
+  <noscript>
+    <p>qznoscript Turn on JavaScript to see the products.</p>
+  </noscript>
+  <script type="application/json" id="shop-config">{"endpoint": "/api/v2/catalog", "auth_header": "X-Shop-Token", "token": "892cdec5fa4739ca", "page_size": 4}</script>
+  <script>
+const config = JSON.parse(document.getElementById('shop-config').textContent)
+
+function renderProducts(items) {
+  const grid = document.getElementById('catalog')
+  for (const item of items) {
+    const card = document.createElement('article')
+    card.textContent = item.title + ' ' + item.price
+    grid.appendChild(card)
+  }
+}
+
+async function loadProducts(url) {
+  const response = await fetch(url, {headers: {[config.auth_header]: config.token}})
+  if (response.status === 429) {
+    const wait = Number(response.headers.get('Retry-After') || 1)
+    setTimeout(() => loadProducts(url), wait * 1000)
+    return
+  }
+  const data = await response.json()
+  renderProducts(data.items)
+  if (data.next) {
+    loadProducts(new URL(data.next, url))
+  }
+}
+
+loadProducts(new URL(config.endpoint, location.href))
+</script>
+  <p><a href="/shop/cart">Your cart</a></p>
+</main>
+<footer>
+  <p>© 2026 Innopolis Museum of Natural History. Photos by the museum team.</p>
+  <p><a href="/about/#contact">Contact</a> · <a href="mailto:info@imnh.example">info@imnh.example</a> · <a href="/press/kit.pdf">Press kit (PDF)</a></p>
+</footer>
+<script>window.qzscript = 'page analytics'</script>
+</body>
+</html>
